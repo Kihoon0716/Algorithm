@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring clone="true" comment="Infer generic type arguments on &apos;SwExpertAcademy&apos;&#x0D;&#x0A;- Original project: &apos;SwExpertAcademy&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     chapter01.BubbleSort.java&#x0D;&#x0A;- Assume clone() returns an instance of the receiver type&#x0D;&#x0A;- Leave unconstrained type arguments raw" description="Infer generic type arguments" element1="/src&lt;chapter01{BubbleSort.java" flags="6" id="org.eclipse.jdt.ui.infer.typearguments" leave="true" stamp="1547749312027" version="1.0"/>
+</session>

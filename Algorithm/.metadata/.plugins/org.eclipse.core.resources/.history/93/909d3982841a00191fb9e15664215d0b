@@ -1,0 +1,19 @@
+package chapter01;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+//	chapter01 : 버블소트
+public class BubbleSort {
+	
+	ArrayList[] arr = new ArrayList[5];
+	Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+			
+		}
+
+	}
+
+
