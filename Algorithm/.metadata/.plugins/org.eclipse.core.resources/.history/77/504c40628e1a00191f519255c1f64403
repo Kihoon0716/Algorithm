@@ -1,0 +1,19 @@
+package chapter01;
+
+import java.io.IOException;
+
+//chapter01 : 카운팅 소트
+public class CountingSort {
+	int[] numbers;	//	입력된 숫자
+	int[] countArr;	//	숫자세기
+	int[] result; 	//	정렬된 후 숫자 저장
+	int max = 0;
+	
+	void inputNumbers() throws IOException
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,41 @@
+package chapter01;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+//chapter01 : 카운팅 소트
+public class CountingSort {
+	int[] numbers;	//	입력된 숫자
+	int[] countArr;	//	숫자세기
+	int[] result; 	//	정렬된 후 숫자 저장
+	int max = 0;
+	
+	void inputNumbers() throws IOException {//	숫자 입력하기
+		Scanner sc = new Scanner(System.in);
+		int size = sc.nextInt();	//	size 입력받기
+		numbers = new int[size];
+		
+		for(int i = 0; i< numbers.length; i ++) {
+			int num = sc.nextInt();
+			numbers[i] = num;
+			if(max < num) {	//	최댓값 찾기
+				max = num;
+			}
+		}
+	}
+	int findMaxNumber() {//	최댓값 찾기
+		int max = 0;
+		for(int i =0; i<numbers.length; i++) {
+			if(max < numbers[i]) {
+				max = numbers[i];
+			}	
+		}
+		return max;
+	}
+ 	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
