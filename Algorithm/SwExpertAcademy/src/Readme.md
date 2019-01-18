@@ -7,4 +7,4 @@
 
 <p align="center">
 <img src="Algorithm/images/sort.PNG" width="600" >	
-</p
+</p>
