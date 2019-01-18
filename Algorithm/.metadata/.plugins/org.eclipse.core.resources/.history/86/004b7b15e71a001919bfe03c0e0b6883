@@ -1,0 +1,11 @@
+package chapter01;
+
+import java.util.Scanner;
+
+//	최빈수구하기
+public class Solutin1204 {
+	Scanner sc = new Scanner(System.in);
+	//	test case 입력 받기
+	int tc = sc.nextInt();
+	int arr[] = new int[1001];
+}

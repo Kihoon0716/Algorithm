@@ -1,0 +1,10 @@
+package chapter01;
+//	최빈수구하기
+public class Solutin1204 {
+	Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

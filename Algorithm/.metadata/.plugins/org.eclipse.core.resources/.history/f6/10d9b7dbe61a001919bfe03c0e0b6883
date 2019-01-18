@@ -1,0 +1,14 @@
+package chapter01;
+
+import java.util.Scanner;
+
+//	최빈수구하기
+public class Solutin1204 {
+	Scanner sc = new Scanner(System.in);
+	int tc = sc.nextInt();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
