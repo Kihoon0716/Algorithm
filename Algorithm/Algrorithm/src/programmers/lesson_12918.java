@@ -14,12 +14,12 @@ class Solution {
         } else return false;
     }
       
-       public static boolean isStringInt(String s) {
-          try {
-              Integer.parseInt(s);
-              return true;
-          } catch (NumberFormatException e) {
-              return false;
-          }
+    public static boolean isStringInt(String s) {
+        try {
+            Integer.parseInt(s);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
   }
