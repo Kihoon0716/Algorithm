@@ -1,0 +1,21 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "## 알고리즘 자료구조 정리",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server -d --config webpack.prod.js",
+    "build": "webpack --config webpack.clean.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InhyeJeong/Algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InhyeJeong/Algorithm/issues"
+  },
+  "homepage": "https://github.com/InhyeJeong/Algorithm#readme"
+}
