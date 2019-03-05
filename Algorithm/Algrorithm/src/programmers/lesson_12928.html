@@ -1,0 +1,32 @@
+<script>
+//  약수의 합
+function solution(n) {
+    var answer = 0;
+
+    //  약수를 리턴하는 함수
+    function divisor(input) {
+        //  값을 저장할 배열 선언
+        var arr = [];
+        for(var i = 1; i <= input; i++) {
+            //  나머지가 0이 되면 i는 약수 -> 배열에 저장
+            if(input % i == 0) arr.push(i);
+        }
+        return arr;
+    }
+
+    var divisor_result = divisor(n);
+
+    //  약수의 합을 ans에 저장
+    for(var i = 0; i < divisor_result.length; i++) {
+        answer += divisor_result[i];
+    }
+
+    return answer;
+}
+
+//  test
+var num = 12;   //  12의 약수 1,2,3,4,6,12
+console.log(solution(num)); //  총합 28
+
+
+</script>
