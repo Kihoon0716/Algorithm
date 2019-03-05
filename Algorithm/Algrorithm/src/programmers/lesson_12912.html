@@ -1,0 +1,36 @@
+<script>
+//  두 정수 사이의 합
+function solution(a, b) {
+
+    var answer = 0;
+
+    var small = 0
+    var large = 0
+
+
+    if(a<b) {
+        small = a;
+        large = b;
+    } else if(b<a) {
+        small = b;
+        large = a;
+    } else {    //  a=b
+        answer = a;
+    }
+
+    for( var i = small; i <= large; i++) {
+            answer += i;
+    }
+    
+    return answer;
+
+    // 모범 답안 : return (a+b)*(Math.abs(b-a)+1) / 2;
+}
+
+//  test
+var a = 3;
+var b = 5;
+
+console.log("solution(a, b) : " + solution(a, b));  //  12
+
+</script>

@@ -1,0 +1,36 @@
+<script>
+//  두 정수 사이의 합
+function solution(a, b) {
+    var answer = 0;
+    //  값을 저장할 배열 선언
+    var arr = [];
+    //  a<b
+    //  a>b
+    //  a=b -> return a||b
+
+    if(a < b) {
+        arr.length = b - a;
+
+    } else if (b < a) {
+        arr.length = a - b;
+    } else {
+        arr.length = 1;
+    }
+    console.log(arr.length);
+    for(var i = 0; i<arr.length; i++) {
+        arr.push(i);
+        answer += arr[i];
+    }
+    console.log(arr[0]);
+    
+    
+    return answer;
+}
+
+//  test
+var a = 3;
+var b = 5;
+
+console.log("solution(a, b) : " + solution(a, b));
+
+</script>
