@@ -1,0 +1,24 @@
+<script>
+  /*
+    정규식 생활코딩 주소 : 
+    https://opentutorials.org/module/532/6580
+  */
+  
+  //  문자열 내 p와 y의 개수
+  function solution(s){
+
+    if(!s) return true;
+    //  입력받은 문자열 대문자로 바꿈
+    s = s.toUpperCase(s);
+    //  match(특정문자열) : 특정문자열 찾는 함수
+    var p = s.match(/P/g);  //  정규식에서 /g은 모든 결과 리턴(global)
+    var y = s.match(/Y/g);
+
+    return p.length == y.length;
+  }
+  //  test
+  var test = 'Pyy';
+
+  console.log(solution(test));
+
+</script>
