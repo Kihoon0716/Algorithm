@@ -1,0 +1,27 @@
+<script>
+//  가운데 글자 가져오기
+//  글자수 짝수이면 두 글자 반환
+function solution(s) {
+    var answer = '';
+    var start_index = 0;
+    var length = 0;
+
+    //  홀수
+    if(s.length % 2 != 0) {
+        start_index = Math.floor(s.length/2);   //  소수 버림
+        length = 1;
+    } else {
+    //  짝수
+        start_index = s.length/2 - 1;
+        length = 2;
+    }
+    answer = s.substr(start_index, length);
+    
+    return answer;
+}
+
+//  test
+var s = 'abcde';
+console.log(solution(s));   //  c
+
+</script>
